@@ -346,4 +346,13 @@ footer {
     #right-about{
         float: right;
     }
+    #photo{
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
 }
